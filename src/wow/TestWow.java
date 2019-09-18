@@ -3,13 +3,11 @@ package wow;
 import java.awt.AWTException;
 import java.awt.Robot;
 import java.awt.event.KeyEvent;
-import java.util.Date;
 
 import com.melloware.jintellitype.HotkeyListener;
 import com.melloware.jintellitype.JIntellitype;
 
 public class TestWow {
-
 	public static void main(String[] args) {
 		// 注册热键 ctrl+W，当触发的时候，带上key值：1
 		JIntellitype.getInstance().registerHotKey(1, JIntellitype.MOD_CONTROL, (int) 'W');
